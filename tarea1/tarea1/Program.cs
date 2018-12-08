@@ -17,7 +17,7 @@ namespace tarea1
 			{
 				while (vec[i] < 1 || vec[i] > 1000)
 				{
-					Console.WriteLine("Ingrese valor {0} del vector", i + 1);
+					Console.WriteLine("Ingrese un numero: ");
 					vec[i] = Int32.Parse(Console.ReadLine());
 				}
 
